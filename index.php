@@ -10,7 +10,7 @@
 	<div id="top"></div>
 	<a id ="go-to-top" href="#top">Up&#8593;</a>
 	<div class="header">
-		<a href="index.html"><span class="logo"><img src="images/logo2.png"></span></a>
+		<a href="index.php"><span class="logo"><img src="images/logo2.png"></span></a>
 
 		<ul>	
 			<li class="text-menu"><a href="despre.html">Despre</a></li>
@@ -103,7 +103,7 @@
     <a class="footer-menu" href="despre.html"> Despre</a>
     <a class="footer-menu" href="istorie.html"> Istorie</a>
     <a class="footer-menu" href="atractii.html"> Atracții turistice</a>
-    <a class="footer-menu" href="distractie">Distracție</a>
+    <a class="footer-menu" href="distractie.html">Distracție</a>
     <a class="footer-menu" href="campus.html">Campus</a>
     <span class="footer-text3">Copyright Pictures: KIoseph, Camelia Mirela, Delicia Varzaru, Siky Marco, Adrian Toth, Stan Leonte</span>
 	</div>

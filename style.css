@@ -252,8 +252,9 @@ li.dropdown {
 .empty:hover{
 	background-color:white !important;
 }
+
 .images{
-	background: url("concrete_seamless.png") fixed center;
+	background: url("images/concrete_seamless.png") fixed center;
 	padding-top:1px;
 }
 #footer {
