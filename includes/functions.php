@@ -6,6 +6,14 @@ function confirm_query($result){
 	}
 }
 
+function get_info_from_table($table){
+	global $conn;
+	$query = "SELECT * ";
+	$query .= "FROM {$table} ";
+	$result_set = mysqli_query($conn, $query);
+	confirm_query($result_set);
+	return $result_set;
+}
 
 function get_info_by_id($information_id){
 	global $conn;
