@@ -36,5 +36,5 @@
     ?>﻿
 
     <?php
-    include "includes/connect.php";
+    include "includes/close_connection.php";
     ?>
