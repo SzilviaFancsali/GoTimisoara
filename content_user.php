@@ -3,7 +3,10 @@
 
 <?php find_selected_post(); ?>
 
-<?php include("includes/header.php"); ?>	
+<?php 
+	$title = "Blog";
+	include("includes/header.php"); 
+?>	
 <div id="content">
 	<table id="table">
 		<tr>
