@@ -2,14 +2,14 @@ body{
     margin:0;
 }
 
-ul{
+.header-menu{
     display:inline;
     list-style:none;
     float:right;
     padding-top: 6px;
 }
 
-li {
+.text-menu, .dropdown {
     display: inline;
     cursor: pointer;
 }
