@@ -1,4 +1,5 @@
 <?php
+	$title = "Atracții";
 	include("includes/header.php");
 ?>	
 	
