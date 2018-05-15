@@ -12,3 +12,15 @@ function getDate(){
 	var dt = new Date();
 	document.getElementById(data).innerHTML=dt.getYear();
 }
+
+function onLoadHandler(){
+
+	var modal = document.getElementById('login');
+
+	window.onclick = function(event) {
+    	if (event.target == modal) {
+        	modal.style.display = "none";
+    	}
+	}
+
+}
