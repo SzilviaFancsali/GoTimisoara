@@ -1,4 +1,5 @@
 <?php
+	$title = "Despre";
 	include("includes/header.php");
 ?>	
 	
