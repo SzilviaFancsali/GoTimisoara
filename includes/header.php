@@ -2,11 +2,11 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<link rel="stylesheet" type="text/css" href="style.css" />
-		<link rel="stylesheet" type="text/css" href="css/css_blog.css" />
+	<link rel="stylesheet" type="text/css" href="css/css_blog.css" />
 	<link href="images/favicon.ico" rel="shortcut icon" type="image/x-icon" />
-	<title>GoTimișoara</title>
+	<title><?php echo $title?></title>
 </head>
-<body onscroll="butonUp()">
+<body onload="onLoadHandler();" onscroll="butonUp()">
 	<script src="script.js" type="text/javascript"></script>
 	<div id="top"></div>
 	<a id ="go-to-top" href="#top">Up&#8593;</a>
@@ -42,6 +42,28 @@
 			<li class="text-menu"><a href="campus.php">Campus</a></li>
 			<li class="text-menu"><a href="content_user.php">Blog</a></li>
 			<li class="text-menu"><a href="https://www.youtube.com/watch?v=zhW78s84xuI">Video</a></li>
-			<li class="text-menu"><a href="login.html">Login</a></li>
+			<li class="text-menu"><a href="" onclick="document.getElementById('login').style.display='block'; return false;">Login</a></li>
+
 		</ul>
+
+		<div id="login" class="modal">
+			<form class="modal-content animate" action="login.php" method="post">
+				<div class="login_container">
+					<div id="closebtn_container">
+						<span onclick="document.getElementById('login').style.display='none'" class="close" title="Close">&times;</span>
+					</div>
+					<label for="username"><b>Username</b></label>
+					<input type="text" placeholder="Introdu username" name="username" id="username" required>
+
+					<label for="password"><b>Password</b></label>
+					<input type="password" placeholder="Introdu parola" name="password" id="password" required>
+
+					<button type="submit" id="login_button">Login</button>
+				</div>
+
+				<div class="login_container" style="background-color:#f1f1f1">
+					<button type="button" onclick="document.getElementById('login').style.display='none'" class="cancelbtn">Cancel</button>
+				</div>
+			</form>
+		</div>
 	</div>
