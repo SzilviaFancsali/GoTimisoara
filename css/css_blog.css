@@ -1,0 +1,26 @@
+dl.info dt{
+list-style:none;
+}
+dl.info dt a{
+	display:block;
+}
+dl.pages dt{
+	list-style:none;
+	font-size:13 px;
+	display:block;
+}
+dl.pages{
+display:block;}
+
+#main{ padding-left:3em; vertical-align:top;}
+
+#new {
+	font-size:10px;
+	font-family:arial;
+}
+
+.selected{
+	font-weight:bold;
+}
+
+
