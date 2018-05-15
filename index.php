@@ -1,48 +1,6 @@
-<html>
-<head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<link rel="stylesheet" type="text/css" href="style.css" />
-	<link href="images/favicon.ico" rel="shortcut icon" type="image/x-icon" />
-	<script src="script.js" type="text/javascript"></script>
-	<title>GoTimișoara</title>
-</head>
-<body onscroll="butonUp()">
-	<div id="top"></div>
-	<a id ="go-to-top" href="#top">Up&#8593;</a>
-	<div class="header">
-		<a href="index.php"><span class="logo"><img src="images/logo2.png"></span></a>
-
-		<ul>	
-			<li class="text-menu"><a href="despre.html">Despre</a></li>
-			<li class="text-menu"><a href="istorie.html">Istorie</a></li>
-			<li class="dropdown">
-				<a href="atractii.html" class="text-menu">Atracții turistice</a>
-				<div class="dropdown-content">
-			        <a href="javascript:void(0)" class="empty"></a>
-					<a href="">Clădiri istorice</a>
-					<a href="">Monumente și statui</a>
-					<a href="">Muzee și galerii de artă</a>
-					<a href="">Palate și case memoriale</a>
-					<a href="">Spații verzi</a>
-					<a href="">Piețe publice</a>
-					<a href="">Lăcașuri de cult</a>
-					<a href="">Poduri</a>
-				</div>
-			</li>
-			<li class="dropdown"><a href="distractie.html" class="text-menu">Distracție</a>
-				<div class="dropdown-content">
-					<a href="javascript:void(0)" class="empty"></a>
-					<a href="">Cafenele</a>
-					<a href="">Restaurante</a>
-					<a href="">Cluburi</a>
-					<a href="">Diverse</a>
-				</div>
-			</li>
-			<li class="text-menu"><a href="campus.html">Campus</a></li>
-			<li class="text-menu"><a href="https://www.youtube.com/watch?v=zhW78s84xuI">Video</a></li>
-		</ul>
-	</div>
-	
+<?php
+	include("includes/header.php");
+?>	
 	<div class="image-container">
 		<img class="first-photo" src="images/img1.jpg">
 		<div class="centered">
@@ -58,7 +16,7 @@
 			Se spune că atracțiile turistice definesc un oraș, fiindcă istoria lor spune multe. 
 			Ei bine, în Timișoara clădirile, podurile, chiar și parcurile au un trecut interesant.
 			Dar hai să îi vedem în prezent!</p>
-			<p><a href="atractii.html" class="mai-mult-link">Mai mult</a></p>
+			<p><a href="atractii.php" class="mai-mult-link">Mai mult</a></p>
 		</div>
 	</div>
 
@@ -70,7 +28,7 @@
 			cum arată Timișoara și cu ochii închiși. Cei care locuiesc în România au vizitat orașul sau 
 			au văzut poze cu Catedrala Mitropolitană. Poate chiar și cei din străinătate au văzut orașul. 
 			Dar totuși, oare cum arătau zonele din Timișoara în trecut? Care sunt locurile interesante?</p>
-			<p><a href="istorie.html" class="mai-mult-link">Mai mult</a></p>
+			<p><a href="istorie.php" class="mai-mult-link">Mai mult</a></p>
 		</div>
 	</div>
 
@@ -81,7 +39,7 @@
 			<p>În Timișoara găsești o mulțime de locuri superbe, de la cafenea în care te simți 
 			ca acasă, până la Cinema 4dx. Să nu uităm și de locurile în care se poate dansa și de 
 			restaurantele care se ridică la ”înălțimea” așteptărilor.</p>
-			<p><a href="distractie.html" class="mai-mult-link">Mai mult</a></p>
+			<p><a href="distractie.php" class="mai-mult-link">Mai mult</a></p>
 		</div>
 	</div>
 
@@ -93,19 +51,11 @@
 			Timișoara are Universități cu care se poate mândri. Ești student și nu știi 
 			unde să îți petreci timpul liber? Ești viitor student și nu știi ce Universitate să alegi? 
 			Aruncă o privire!</p>
-			<p><a href="campus.html" class="mai-mult-link">Mai mult</a></p>
+			<p><a href="campus.php" class="mai-mult-link">Mai mult</a></p>
 		</div>
 	</div>
 	</div>
-	<div id="footer">
-	<img class="footer-icon" src="images/favicon.ico"><span class="footer-text">Copyright</span><span id="data" 
-	class="footer-text"></span><span class="footer-text2">- HTTPS://CLS </span>
-    <a class="footer-menu" href="despre.html"> Despre</a>
-    <a class="footer-menu" href="istorie.html"> Istorie</a>
-    <a class="footer-menu" href="atractii.html"> Atracții turistice</a>
-    <a class="footer-menu" href="distractie.html">Distracție</a>
-    <a class="footer-menu" href="campus.html">Campus</a>
-    <span class="footer-text3">Copyright Pictures: KIoseph, Camelia Mirela, Delicia Varzaru, Siky Marco, Adrian Toth, Stan Leonte</span>
-	</div>
-</body>
-</html>
+	
+	<?php
+	include("includes/footer.php");
+	?>
