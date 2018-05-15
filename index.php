@@ -1,4 +1,5 @@
 <?php
+	$title = "GoTimișoara";
 	include("includes/header.php");
 ?>	
 	<div class="image-container">
