@@ -1,4 +1,5 @@
 <?php
+	$title = "Istorie";
 	include("includes/header.php");
 ?>	
 	

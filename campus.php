@@ -1,4 +1,5 @@
 <?php
+	$title = "Campus";
 	include("includes/header.php");
 ?>	
 	
