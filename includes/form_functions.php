@@ -4,16 +4,16 @@
 		$field_errors = array();
 		foreach($required_array as $fieldname){
 			if (!isset($_POST[$fieldname]) || (empty($_POST[$fieldname]) && !is_int($_POST[$fieldname]))){
-				$errors[] = $fieldname;
-			} return $field_errors;
-	}
+				$field_errors[] = $fieldname;
+			} 
+		} return $field_errors;
 	}
 	
 	function check_max_field_lengths($field_length_array){
 		$field_errors = array();
 		foreach($field_length_array as $fieldname => $maxlength){
 			if(strlen(trim(mysql_prep($_POST[$fieldname]))) > $maxlength){
-				$errors[]= $fieldname;
+				$field_errors[]= $fieldname;
 					}
 				} return $field_errors;
 	}
@@ -22,7 +22,7 @@
 		echo "<p class=\"errors\">";
 		echo "Verifică următoarele câmpuri:<br/>";
 		foreach($error_array as $error){
-			echo " * " . $error . "br />";
+			echo " * " . $error . "<br />";
 		}
 		echo "</p>";
 	}
