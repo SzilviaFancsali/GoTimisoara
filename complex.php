@@ -93,17 +93,18 @@
 	<div class="text">Biblioteca Centrală Universitară "Eugen Todoran"</div>
   </div>
 
-  <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
-  <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
+  <a class="prev" onclick="plusSlides(-1, 2)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1, 2)">&#10095;</a>
 </div>
 </div>
 </div>
 
 <script>
-var slideIndex = [1,1];
+var slideIndex = [1,1,1];
 var slideId = ["mySlides1", "mySlides2", "mySlides3"]
 showSlides(1, 0);
 showSlides(1, 1);
+showSlides(1, 2);
 
 function plusSlides(n, no) {
   showSlides(slideIndex[no] += n, no);
