@@ -135,6 +135,7 @@
 	<span class="dot" onclick="currentSlide(17)"></span>
 </div>
 </div>
+<?php $var = "Restaurante"; include "map_include.php"; ?>
 </div>
 <?php
 	include("includes/footer.php");
