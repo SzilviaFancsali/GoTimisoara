@@ -1,6 +1,7 @@
+<?php require_once("includes/session.php") ?>
 <?php require_once("includes/connect.php") ?>
 <?php require_once("includes/functions.php"); ?>
-
+<?php confirm_logged_in();?>
 <?php 	find_selected_post();	?>
 
 <?php include("includes/simple_header.php"); ?>	

@@ -6,7 +6,7 @@
 			if (!isset($_POST[$fieldname]) || (empty($_POST[$fieldname]) && !is_int($_POST[$fieldname]))){
 				$field_errors[] = $fieldname;
 			} 
-		} return $field_errors;
+	}return $field_errors;
 	}
 	
 	function check_max_field_lengths($field_length_array){

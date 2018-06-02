@@ -33,14 +33,14 @@
 			<li class="dropdown"><a href="distractie.php" class="text-menu">Distracție</a>
 				<div class="dropdown-content">
 					<a href="javascript:void(0)" class="empty"></a>
-					<a href="">Cafenele</a>
-					<a href="">Restaurante</a>
-					<a href="">Cluburi</a>
-					<a href="">Diverse</a>
+					<a href="cafenele.php">Cafenele</a>
+					<a href="restaurante.php">Restaurante</a>
+					<a href="cluburi.php">Cluburi</a>
+					<a href="cluburi.php">Diverse</a>
 				</div>
 			</li>
 			<li class="text-menu"><a href="campus.php">Campus</a></li>
-			<li class="text-menu"><a href="content_user.php">Blog</a></li>
+			<li class="text-menu"><a href="blog.php">Blog</a></li>
 			<li class="text-menu"><a href="https://www.youtube.com/watch?v=zhW78s84xuI">Video</a></li>
 			<li class="text-menu"><a href="" onclick="document.getElementById('login').style.display='block'; return false;">Login</a></li>
 
