@@ -1,4 +1,4 @@
-﻿<div id="map" style="height:100%; width:100%;"></div>
+<div id="map" style="height:100%; width:100%; display:inline-block;"></div>
 <div id="floating-panel">
 <?php 
 
@@ -214,14 +214,19 @@
     	var directionsDisplay = new google.maps.DirectionsRenderer;
         var directionsService = new google.maps.DirectionsService;
         
-        directionsDisplay.setMap(map_traseu);
+        directionsDisplay.setMap(map);
         directionsDisplay.setPanel(document.getElementById('right-panel'));
 
         var control = document.getElementById('floating-panel');
         control.style.display = 'block';
-        map_traseu.controls[google.maps.ControlPosition.TOP_CENTER].push(control);
+        map.controls[google.maps.ControlPosition.TOP_CENTER].push(control);
 
         var onChangeHandler = function() {
+          //document.getElementById("right-panel").style.backgroundColor = "rgba(220,220,220, 0.8)";
+          var width = window.innerWidth - 401;
+          document.getElementById("map").style.width = width;
+          window.alert(document.getElementById('map').style.width);
+          //document.getElementById("right-panel").style.float = "right";
           calculateAndDisplayRoute(directionsService, directionsDisplay);
         };
         document.getElementById('start').addEventListener('change', onChangeHandler);
