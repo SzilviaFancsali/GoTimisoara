@@ -1,11 +1,13 @@
 <?php $title = "GoTimișoara - Create New User"; ?>
 <?php require_once("includes/session.php") ?>
 <?php
+	$title = "Utilizator nou";
 	include("includes/header.php");
 ?>	
 <?php require_once("includes/connect.php");?>
 <?php require_once("includes/functions.php");?>
 <?php confirm_logged_in();?>
+<?php confirm_admin();?>
 <?php include_once("includes/form_functions.php");
 
 	if (isset($_POST['submit'])){
@@ -62,7 +64,7 @@
 			<h2>Create New User</h2>
 			<?php if (!empty($message)) {echo "<p class=\"message\">" . $message . "</p>";}?>
 			<?php if(!empty($errors)) {echo "<p>Errors</p>";}?>
-			<form action="new_fac.php" method="post">
+			<form action="new_user.php" method="post">
 			<table>
 			<tr>
 				<td>Username:</td>

@@ -219,6 +219,7 @@
 	<span class="dot" onclick="currentSlide(29)"></span>
 </div>
 </div>
+<?php $var = "Cafenele"; include "map_include.php"; ?>
 </div>
 <?php
 	include("includes/footer.php");

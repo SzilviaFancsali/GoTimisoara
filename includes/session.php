@@ -10,4 +10,16 @@
 	}
 	}
 
+	function is_admin(){
+		if ($_SESSION['username'] == 'admin')
+			return True;
+		else
+			return False;
+	}
+
+	function confirm_admin(){
+		if (!is_admin()) 
+			redirect_to("dashboard.php");
+	}
+
 ?>

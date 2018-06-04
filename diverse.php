@@ -78,6 +78,7 @@
 	<span class="dot" onclick="currentSlide(7)"></span>
 </div>
 </div>
+<?php $var = "Diverse"; include "map_include.php"; ?>
 </div>
 <?php
 	include("includes/footer.php");

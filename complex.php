@@ -3,6 +3,8 @@
 	include("includes/header.php");
 ?>	
 	<div class="campus">
+  <table id="campusTable"><tr>
+  <td>
 	<div class="slideshow">
 	<div class="slideshow-container">
 	
@@ -54,7 +56,16 @@
   <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
 </div>
 </div>
-
+</td>
+<td>
+<div id="mapComplexMancare" style="height:90%; width: 90%;"></div>
+</td>
+</tr>
+<tr>
+<td>
+<div id="mapComplexRelaxare" style="height:90%; width: 90%;"></div>
+</td>
+<td>
 <div class="slideshow">
 <div class="slideshow-container">
   <div class="mySlides2">
@@ -81,6 +92,10 @@
   <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
 </div>
 </div>
+</td>
+</tr>
+<tr>
+<td>
 <div class="slideshow">
 <div class="slideshow-container">
   <div class="mySlides3">
@@ -98,7 +113,12 @@
 </div>
 </div>
 </div>
-
+</td>
+<td>
+<div id="mapComplexInvat" style="height:90%; width: 90%;"></div>
+</td>
+</tr>
+</table>
 <script>
 var slideIndex = [1,1,1];
 var slideId = ["mySlides1", "mySlides2", "mySlides3"]
@@ -121,6 +141,9 @@ function showSlides(n, no) {
   x[slideIndex[no]-1].style.display = "block";  
 }
 </script>
+
+<?php include 'map_complex_include.php'; ?>
+
 <div id="footer">
 	<img class="footer-icon" src="images/favicon.ico"><span class="footer-text">Copyright</span><span id="data" 
 	class="footer-text"></span><span class="footer-text2">- HTTPS://CLS </span>
