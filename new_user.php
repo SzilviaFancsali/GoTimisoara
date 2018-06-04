@@ -1,7 +1,7 @@
 <?php $title = "GoTimișoara - Create New User"; ?>
 <?php require_once("includes/session.php") ?>
 <?php
-	$title = "Utilizator nou";
+	$title="Utilizator nou";
 	include("includes/header.php");
 ?>	
 <?php require_once("includes/connect.php");?>
