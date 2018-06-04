@@ -600,7 +600,12 @@ background: url("images/diverse/background.jpg") fixed center;
         line-height: 30px;
         padding-left: 10px;
       }
+
       #right-panel {
+        /*position: absolute;
+        top:100px;
+        right: 1%;
+        z-index: 5; */
         font-family: 'Roboto','sans-serif';
         line-height: 30px;
         padding-left: 10px;
@@ -617,12 +622,14 @@ background: url("images/diverse/background.jpg") fixed center;
       #right-panel i {
         font-size: 12px;
       }
+
       #right-panel {
         height: 100%;
-        float: right;
         width: 390px;
+        float: right;
         overflow: auto;
       }
+      
       #map_traseu {
         margin-right: 400px;
       }
@@ -635,6 +642,7 @@ background: url("images/diverse/background.jpg") fixed center;
         box-shadow: 0 2px 2px rgba(33, 33, 33, 0.4);
         display: none;
       }
+
       @media print {
         #map_traseu {
           height: 500px;
