@@ -30,7 +30,7 @@ li:hover {
     background: #fff;
 }
 
-.text-menu {
+.text-menu, #myBtn {
     font-family:Alegreya SC;
     font-weight: 600;
     line-height: 1.1;
@@ -600,7 +600,12 @@ background: url("images/diverse/background.jpg") fixed center;
         line-height: 30px;
         padding-left: 10px;
       }
+
       #right-panel {
+        /*position: absolute;
+        top:100px;
+        right: 1%;
+        z-index: 5; */
         font-family: 'Roboto','sans-serif';
         line-height: 30px;
         padding-left: 10px;
@@ -617,12 +622,14 @@ background: url("images/diverse/background.jpg") fixed center;
       #right-panel i {
         font-size: 12px;
       }
+
       #right-panel {
         height: 100%;
-        float: right;
         width: 390px;
+        float: right;
         overflow: auto;
       }
+      
       #map_traseu {
         margin-right: 400px;
       }
@@ -635,12 +642,329 @@ background: url("images/diverse/background.jpg") fixed center;
         box-shadow: 0 2px 2px rgba(33, 33, 33, 0.4);
         display: none;
       }
+
       @media print {
         #map_traseu {
           height: 500px;
           margin: 0;
-        }
+	  }
         #right-panel {
           float: none;
           width: auto;
-        }
+		}
+}
+
+/* The Modal (background) */
+.modal2 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content2 {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 40%;
+	border-radius:20px;
+}
+
+/* The Close Button */
+.close2 {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close2:hover,
+.close2:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+#myBtn{
+	background-color:#fefefe;
+	border-width:2px;
+	border-radius:20px;
+	border-color:#2f8f06 ;
+	cursor: pointer;
+	font-size:15;
+	
+}
+#myBtn:hover{
+	color:#2f8f06;
+}
+.despre_title{
+	background: url("images/despre/despre_titlu.jpg") center;
+	font-size:32;
+	color:#fefefe;
+	text-shadow: 2px 2px 4px #000000;
+	text-align:center;
+	padding-top:40px;
+	padding-bottom:60px;
+}
+.istorie_title{
+	background: url("images/istorie/istorie_titlu.png") center;
+	font-size:32;
+	color:#fefefe;
+	text-shadow: 2px 2px 4px #000000;
+	text-align:center;
+	padding-top:40px;
+	padding-bottom:60px;
+
+}
+.content_text{
+	text-indent:50px;
+	line-height:1.6;
+	font-size:17;
+	margin-right:20px;
+	margin-left:20px;
+	margin-top:40px;
+	font-family:Alegreya;
+	
+}
+.despre_divider1{
+	background: url("images/despre/divider1.jpg") fixed center;
+	background-repeat:no-repeat;
+	background-size:100% ;
+	padding-top:80px;
+	padding-bottom:100px;
+	
+}
+.facts{
+	margin-top:30px;
+	margin-bottom:30px;
+}
+.despre_divider2{
+	background: url("images/despre/divider2.jpg") fixed center;
+	background-repeat:no-repeat;
+	background-size:100%;
+	padding-top:80px;
+	padding-bottom:100px;
+	margin-top:20px;
+}
+.interesting-facts{
+ padding-right:50px;
+	padding-left:50px;
+	
+}
+.fact-table{
+	 margin: auto;
+	 padding-right:200px;
+	padding-left:200px;
+	text-align:center;
+}
+
+
+.interesting-facts-text{
+	padding-right:50px;
+	padding-bottom:70px;
+	padding-left:50px;
+	
+}
+
+.despre_divider3{
+	background: url("images/despre/harta.png") center;
+	background-repeat:no-repeat;
+	background-size:100%;
+	padding-top:300px;
+	padding-bottom:150px;
+}
+
+.istorie_before1{
+	padding-right:50px;
+	padding-left:400px;
+	padding-top:220px;
+	padding-bottom:30px;
+	background: url("images/istorie/ancora_after.jpg") center;
+	background-repeat:no-repeat;
+	background-size:100%;
+
+}
+.istorie_before1:hover{
+	padding-right:50px;
+	padding-left:350px;
+	padding-top:220px;
+	padding-bottom:30px;
+	background: url("images/istorie/ancora_before.jpg") center;
+	background-repeat:no-repeat;
+	background-size:100%;
+
+}
+
+.istorie_before2{
+	padding-right:50px;
+	padding-left:350px;
+	padding-top:250px;
+	padding-bottom:30px;
+	background: url("images/istorie/biserica_after.jpg") center;
+	background-repeat:no-repeat;
+	background-size:100%;
+
+}
+.istorie_before2:hover{
+	padding-right:50px;
+	padding-left:350px;
+	padding-top:250px;
+	padding-bottom:30px;
+	background: url("images/istorie/biserica_before.jpg") center;
+	background-repeat:no-repeat;
+	background-size:100%;
+
+}
+
+.istorie_before3{
+	padding-right:50px;
+	padding-left:350px;
+	padding-top:220px;
+	padding-bottom:30px;
+	background: url("images/istorie/biserica2_after.jpg") center;
+	background-repeat:no-repeat;
+	background-size:100%;
+
+}
+.istorie_before3:hover{
+	padding-right:50px;
+	padding-left:350px;
+	padding-top:220px;
+	padding-bottom:30px;
+	background: url("images/istorie/biserica2_before.jpeg") center;
+	background-repeat:no-repeat;
+	background-size:100%;
+
+}
+
+.istorie_before4{
+	padding-right:50px;
+	padding-left:350px;
+	padding-top:220px;
+	padding-bottom:30px;
+	background: url("images/istorie/traian_after.jpg") center;
+	background-repeat:no-repeat;
+	background-size:100%;
+
+}
+.istorie_before4:hover{
+	padding-right:50px;
+	padding-left:350px;
+	padding-top:220px;
+	padding-bottom:30px;
+	background: url("images/istorie/traian_before.jpeg") center;
+	background-repeat:no-repeat;
+	background-size:100%;
+
+}
+
+.istorie_before4{
+	padding-right:50px;
+	padding-left:350px;
+	padding-top:220px;
+	padding-bottom:30px;
+	background: url("images/istorie/traian2_after.jpg") center;
+	background-repeat:no-repeat;
+	background-size:100%;
+
+}
+.istorie_before4:hover{
+	padding-right:50px;
+	padding-left:350px;
+	padding-top:220px;
+	padding-bottom:30px;
+	background: url("images/istorie/traian2_before.jpeg") center;
+	background-repeat:no-repeat;
+	background-size:100%;
+
+}
+.istorie_before5{
+	padding-right:50px;
+	padding-left:350px;
+	padding-top:220px;
+	padding-bottom:30px;
+	background: url("images/istorie/pompieri_after.jpg") center;
+	background-repeat:no-repeat;
+	background-size:100%;
+
+}
+.istorie_before5:hover{
+	padding-right:50px;
+	padding-left:350px;
+	padding-top:220px;
+	padding-bottom:30px;
+	background: url("images/istorie/pompieri_before.jpeg") center;
+	background-repeat:no-repeat;
+	background-size:100%;
+
+}
+
+.istorie_before6{
+	padding-right:50px;
+	padding-left:350px;
+	padding-top:220px;
+	padding-bottom:30px;
+	background: url("images/istorie/parc_after.jpg") center;
+	background-repeat:no-repeat;
+	background-size:100%;
+
+}
+.istorie_before6:hover{
+	padding-right:50px;
+	padding-left:350px;
+	padding-top:220px;
+	padding-bottom:30px;
+	background: url("images/istorie/parc_before.jpeg") center;
+	background-repeat:no-repeat;
+	background-size:100%;
+
+}
+.history-table{
+	border-spacing: 35px 60px;
+	text-align:center;
+}
+.choose_background{
+	background: url("images/img1_dark.jpg") center;
+	background-repeat:no-repeat;
+	background-size:100%;
+	height:100%;
+}
+.atractii_table{
+	margin: auto;
+	text-align:center;
+	padding-top:35px;
+}
+.textbelow{
+	text-align:center;
+	margin-bottom:50px;
+	opacity: 0.8;
+	font-family:Alegreya SC;
+    font-weight: 300;
+	margin-top:10px;
+	background-color: rgba(47, 143, 6,0.5);
+	border:none;
+	border-radius:20px;
+	font-size:16px;
+	padding:5px;
+}
+.distractie_table{
+	margin: auto;
+	text-align:center;
+	border-spacing: 50px 30px;
+	padding-top:60px;
+}
+
+#unselectable{
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
