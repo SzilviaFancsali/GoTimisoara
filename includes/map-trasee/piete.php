@@ -1,4 +1,4 @@
-	<strong>Plecare:</strong>
+<strong>Plecare:</strong>
     <select id="start">
 		<option value="{lat: 45.7525195 , lng: 21.2248242 }">Piața Victoriei</option>
 		<option value="{lat: 45.7583935 , lng: 21.22904 }">Piața Unirii</option>

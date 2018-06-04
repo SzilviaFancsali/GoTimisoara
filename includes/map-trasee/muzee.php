@@ -1,4 +1,4 @@
-	<strong>Plecare:</strong>
+<strong>Plecare:</strong>
     <select id="start">
 		<option value="{lat: 45.7640357 , lng: 21.2224705 }">Muzeul de Artă</option>
 		<option value="{lat: 45.7551367 , lng: 21.2273093 }">Muzeul Militar</option>

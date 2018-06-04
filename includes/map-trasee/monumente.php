@@ -1,4 +1,4 @@
-	<strong>Plecare:</strong>
+<strong>Plecare:</strong>
     <select id="start">
 		<option value="{lat: 45.7579329 , lng: 21.2290738 }">Coloana Ciumei</option>
 		<option value="{lat: 45.7557855 , lng: 21.2272779 }">Monumentul Sfintei Maria şi a Sfântului Nepomuk</option>

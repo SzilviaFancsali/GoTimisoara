@@ -1,4 +1,4 @@
-	<strong>Plecare:</strong>
+<strong>Plecare:</strong>
     <select id="start">
 		<option value="{lat: 45.7580631 , lng: 21.26516 }">Pasarela de la Uzina Hidroelectrică</option>
 		<option value="{lat: 45.7486592 , lng: 21.2254587 }">Podul Andrei Șaguna</option>

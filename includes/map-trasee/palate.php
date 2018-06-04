@@ -1,4 +1,4 @@
-	<strong>Plecare:</strong>
+<strong>Plecare:</strong>
     <select id="start">
 		<option value="{lat: 45.7574831 , lng: 21.2288064 }">﻿Palatul Bruck</option>
 		<option value="{lat: 45.7570104 , lng: 21.2313452 }">Palatul Dicasterial</option>

@@ -9,7 +9,6 @@
 		redirect_to("index.php");
 	}
 	}
-
 	function is_admin(){
 		if ($_SESSION['username'] == 'admin')
 			return True;

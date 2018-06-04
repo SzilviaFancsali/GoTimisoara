@@ -1,4 +1,4 @@
-﻿	<strong>Plecare:</strong>
+<strong>Plecare:</strong>
     <select id="start">
 		<option value="{lat: 45.7530631 , lng: 21.2270846 }">Castelul Huniade</option>
 		<option value="{lat: 45.7476982 , lng: 21.2423182 }">Abatorul</option>

@@ -1,4 +1,4 @@
-	<strong>Plecare:</strong>
+<strong>Plecare:</strong>
     <select id="start">
 		<option value="{lat: 45.7444998 , lng: 21.2232346 }">Parcul Carmen Sylva</option>
 		<option value="{lat: 45.7500944 , lng: 21.2316826 }">Parcul Rozelor</option>

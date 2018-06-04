@@ -1,4 +1,4 @@
-	<strong>Plecare:</strong>
+<strong>Plecare:</strong>
     <select id="start">
 		<option value="{lat: 45.7581453 , lng: 21.2300941 }">Domul Romano-Catolic</option>
 		<option value="{lat: 45.7507216 , lng: 21.2242708 }">Catedrala Mitropolitană</option>
