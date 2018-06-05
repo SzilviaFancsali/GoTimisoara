@@ -46,7 +46,7 @@
 				<p> Titlu:
 					<input type="text" name="menu" value="" id="menu" />
 				</p>
-				<p>
+				<p> Data:
 				<input type="date" name="date">
 				</p>
 				<p> Categorie:
@@ -60,7 +60,7 @@
 				</select>
 				</p>
 				<p> Conținut:
-				<textarea name="content" rows="10" cols="30">Adaugă conținut</textarea>
+				<textarea name="content" rows="5" cols="30">Adaugă conținut</textarea>
 				</p>
 				<p> Poziție:
 					<select name="position">
