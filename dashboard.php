@@ -8,21 +8,15 @@ confirm_logged_in();
 	include("includes/header.php");
 ?>	
 <?php require_once("includes/functions.php");?>
-<div id="content">
-<table id="table">
+<div id="dashboard_content">
+<h1>Welcome to the staff area, <em id="logged_user"><?php echo $_SESSION['username'];?></em></h1>
+<table id="dashboard_table">
 <tr>
-<td id="nav">
 &nbsp;
-</td>
-<td id="main">
-<p>Welcome to the staff area, <?php echo $_SESSION['username'];?>.</p>
-<ul>
-<li><a href="content.php">Manage Site</a></li>
-<?php if(is_admin()) echo '<li><a href="new_user.php">Add new User</a></li>';?>
-<li><a href="logout.php">Logout</a></li>
-</ul>
-</td>
 </tr>
+<tr><td><a href="content.php">Manage Site</a></td></tr>
+<?php if(is_admin()) echo '<tr><td><a href="new_user.php">Add new User</a></td></tr>';?>
+<tr><td><a href="logout.php">Logout</a></td></tr>
 </table>
 </div>
 <?php
