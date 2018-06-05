@@ -33,7 +33,6 @@
 ?>
 </div>
 <div id="right-panel"></div>
-<div id="map_traseu" style="height:100%;"></div>
 
 <script>
 
@@ -200,16 +199,10 @@
           center: timisoara.pos
         });
 
-        var map_traseu = new google.maps.Map(document.getElementById('map_traseu'), {
-          zoom: 15,
-          center: timisoara.pos
-        });
-
         for(var i = 0; i < arrayLocatii.length; i++) {
         	createMarker(arrayLocatii[i].pos, arrayLocatii[i].name, map, infoWindow);
         	}
       
-
  
     	var directionsDisplay = new google.maps.DirectionsRenderer;
         var directionsService = new google.maps.DirectionsService;
@@ -223,9 +216,10 @@
 
         var onChangeHandler = function() {
           //document.getElementById("right-panel").style.backgroundColor = "rgba(220,220,220, 0.8)";
-          var width = window.innerWidth - 401;
+          var width = window.innerWidth - 405;
           document.getElementById("map").style.width = width;
-          window.alert(document.getElementById('map').style.width);
+          document.getElementById("right-panel").style.display = "inline-block";
+          console.log(document.getElementById('map').style.width);
           //document.getElementById("right-panel").style.float = "right";
           calculateAndDisplayRoute(directionsService, directionsDisplay);
         };
