@@ -626,6 +626,7 @@ background: url("images/diverse/background.jpg") fixed center;
       #right-panel {
         height: 100%;
         width: 390px;
+	display: none;
         float: right;
         overflow: auto;
       }
