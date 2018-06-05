@@ -73,7 +73,7 @@
 					$query="UPDATE posts SET
 					categories_id={$category},
 					menu='{$menu}', 
-					date={$date}, 
+					date='{$date}', 
 					position={$position}, 
 					visible={$visible}, 
 					content='{$content}'
@@ -114,7 +114,7 @@
 				<p> Titlu:
 					<input type="text" name="menu" value="<?php echo $table2['menu']; ?>" id="menu" />
 				</p>
-				<p>
+				<p> Data:
 				<input type="date" name="date" value="$table2['date']" />
 				</p>
 				<p> Categorie:
@@ -128,7 +128,7 @@
 				</select>
 				</p>
 				<p> Conținut:
-				<textarea name="content" rows="10" cols="30">
+				<textarea name="content" rows="5" cols="30">
 					<?php
 						echo $table2['content'];
 					?></textarea>
