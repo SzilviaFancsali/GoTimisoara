@@ -53,7 +53,7 @@
 
 ?>
 <div id="content">
-	<table id="table">
+	<table id="table" align="center">
 		<tr>
 			<td id="nav">
 			<a href="dashboard.php">Return to Menu</a>
