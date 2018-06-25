@@ -1,3 +1,6 @@
+
+<?php require_once("includes/session.php") ?>
+<?php confirm_logged_in();?>
 <?php
 
 

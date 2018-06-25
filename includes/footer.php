@@ -1,6 +1,6 @@
 	<div id="footer">
-	<img class="footer-icon" src="images/favicon.ico"><span class="footer-text">Copyright</span><span id="data" 
-	class="footer-text"></span><span class="footer-text2">- HTTPS://CLS </span>
+	<img class="footer-icon" src="images/favicon.ico"><span class="footer-text">Copyright </span><span 
+	class="footer-text"><script> document.write(new Date().getFullYear());</script></span><span class="footer-text2">- HTTPS://CLS </span>
     <a class="footer-menu" href="despre.html"> Despre</a>
     <a class="footer-menu" href="istorie.html"> Istorie</a>
     <a class="footer-menu" href="atractii.html"> Atracții turistice</a>

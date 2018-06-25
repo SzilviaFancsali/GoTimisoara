@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.7.4
+-- version 4.7.0
 -- https://www.phpmyadmin.net/
 --
--- Host: 127.0.0.1
--- Generation Time: May 15, 2018 at 09:03 PM
--- Server version: 10.1.28-MariaDB
--- PHP Version: 7.1.11
+-- Host: localhost
+-- Generation Time: Jun 02, 2018 at 11:44 AM
+-- Server version: 10.1.21-MariaDB
+-- PHP Version: 5.6.30
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -19,7 +19,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `gt`
+-- Database: `go_timi_test`
 --
 
 -- --------------------------------------------------------
@@ -40,8 +40,8 @@ CREATE TABLE `categories` (
 --
 
 INSERT INTO `categories` (`id`, `menu`, `position`, `visible`) VALUES
-(1, 0x4e4f55000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000, 1, 1),
-(2, 0x4556454e494d454e54450000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000, 2, 1);
+(1, 0x4e4f55, 1, 1),
+(2, 0x4556454e494d454e5445, 2, 1);
 
 --
 -- Indexes for dumped tables
@@ -61,8 +61,7 @@ ALTER TABLE `categories`
 -- AUTO_INCREMENT for table `categories`
 --
 ALTER TABLE `categories`
-  MODIFY `id` int(3) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
-COMMIT;
+  MODIFY `id` int(3) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
