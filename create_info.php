@@ -1,5 +1,7 @@
+<?php require_once("includes/session.php") ?>
 <?php require_once("includes/connect.php") ?>
 <?php require_once("includes/functions.php"); ?>
+<?php confirm_logged_in();?>
 <?php require_once("includes/simple_header.php"); ?>
 <?php
 	$errors=array();
@@ -38,7 +40,7 @@
 
 	$query="INSERT INTO posts(
 	categories_id,menu, date, position, visible, content) VALUES (
-	{$category},'{$menu}', {$date}, {$position}, {$visible}, '{$content}'
+	{$category},'{$menu}', '{$date}', {$position}, {$visible}, '{$content}'
 	)";
 	
 	if (mysqli_query($connection, $query)){
